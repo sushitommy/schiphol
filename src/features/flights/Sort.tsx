@@ -8,7 +8,7 @@ function Sort() {
 
   return (
     <div className={styles.sortForm}>
-      Sorteer op:
+      Sort by:
       <select
         className={styles.selectBox}
         name="sortOption"

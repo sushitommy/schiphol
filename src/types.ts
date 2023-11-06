@@ -1,5 +1,6 @@
 export type AppState = {
   inputValue: string;
+  inputHasChanged: boolean;
   data: Flight[] | null;
   isLoading: boolean;
   isError: boolean;
