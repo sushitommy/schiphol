@@ -1,0 +1,11 @@
+.sortForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    margin-block-end: 1rem;
+}
+
+.selectBox {
+    padding-inline-end: 1em;
+}

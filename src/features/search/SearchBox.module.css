@@ -1,0 +1,21 @@
+.searchBox {
+    background-color: var(--white);
+    padding: 1rem;
+}
+
+h1 {
+    margin-block-start: 0;
+}
+
+.input {
+    background-color: #fff;
+    border: 0.0625rem solid var(--grey-scattered);
+    border-bottom-color: var(--grey-overcast);
+    border-radius: 0;
+    box-shadow: 0 0.25rem 0.75rem rgba(20, 18, 81, 0);
+    font-size: 1rem;
+    height: 3rem;
+    max-width: 100%;
+    padding-inline-end: 3.5rem;
+    padding-inline-start: 1.25rem;
+}

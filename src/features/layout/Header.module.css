@@ -1,0 +1,14 @@
+.header {
+    background-color: var(--grey-few);
+    padding-block-start: 2.5rem;
+}
+
+.headerContent {
+    background-color: var(--white);
+    padding-block: 0;
+    padding-inline: 2em;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    ;
+}

@@ -1,0 +1,27 @@
+.item {
+    background-color: var(--white);
+    padding-block: 1em;
+    padding-inline: 1em;
+    margin-block-end: 1em;
+}
+
+.itemTitle {
+    font-size: 1rem;
+    background-color: var(--white);
+}
+
+.itemContent {
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-inline-start: 0;
+}
