@@ -19,7 +19,7 @@ export type Flight = {
   expectedTime: string;
   originalTime: string;
   url: string;
-  score: number;
+  score: string;
 };
 
 export enum ActionType {

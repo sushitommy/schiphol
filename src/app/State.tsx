@@ -1,4 +1,4 @@
-import useFlightData from "@hooks/useFlights";
+import useFlights from "@hooks/useFlights";
 import { PropsWithChildren, createContext, useEffect, useReducer } from "react";
 import { Action, ActionType, AppState, SortingType } from "types";
 
@@ -56,7 +56,7 @@ export function StateProvider({ children }: PropsWithChildren) {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   // Runs only once
-  const { data: flightData, isLoading, isError } = useFlightData();
+  const { data: flightData, isLoading, isError } = useFlights();
 
   //  Update the app state when data is loaded
   useEffect(() => {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { APIResponse, Flight } from "types";
 
-export default function useFlightData(url: string = "./flights.json") {
+export default function useFlights(url: string = "./flights.json") {
   const [data, setData] = useState<Flight[] | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isError, setError] = useState<boolean>(false);
