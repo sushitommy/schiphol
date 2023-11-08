@@ -7,7 +7,7 @@ describe("sortFlights", () => {
   test("Flights should be sorted correctly from early to late", () => {
     expect(sortFlightsByDateAndTime(flightsToSort, SortingType.EARLY_TO_LATE)).toEqual(flightsSortedEarlyToLate);
   });
-  test("Flights should be sorted correctly from early to late", () => {
+  test("Flights should be sorted correctly from late to early", () => {
     expect(sortFlightsByDateAndTime(flightsToSort, SortingType.LATE_TO_EARLY)).toEqual(flightsSortedEarlyToLate.reverse());
   });
 });

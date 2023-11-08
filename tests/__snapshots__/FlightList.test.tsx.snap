@@ -1,0 +1,511 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FlightList > FlightList should render 5 london items in order when input is 'Lon' and sorting is 'Early to late' 1`] = `
+<DocumentFragment>
+  <div
+    class="_flightList_36ec21"
+  >
+    <div
+      class="_sortForm_f68e6c"
+    >
+      Sort by:
+      <select
+        class="_selectBox_f68e6c"
+        name="sortOption"
+      >
+        <option
+          value="earlyToLate"
+        >
+          Early to late
+        </option>
+        <option
+          value="lateToEarly"
+        >
+          Late to early
+        </option>
+      </select>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        KL 1019 to London Heathrow
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-22
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          153.7487
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401KL1019/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        BA 2761 to London Gatwick
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-23
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          155.64577
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401BA2761/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        EJU 8874 to London Gatwick
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-23
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          15:05
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          15:05
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          154.88477
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401EJU8874/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        EZY 3004 to London Stansted
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-24
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:45
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:45
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          156.19374
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401EZY3004/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        BA 435 to London Heathrow
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-24
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:55
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:55
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          154.88477
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401BA435/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FlightList > FlightList should render 5 london items in order when input is 'Lon' and sorting is 'Late to early' 1`] = `
+<DocumentFragment>
+  <div
+    class="_flightList_36ec21"
+  >
+    <div
+      class="_sortForm_f68e6c"
+    >
+      Sort by:
+      <select
+        class="_selectBox_f68e6c"
+        name="sortOption"
+      >
+        <option
+          value="earlyToLate"
+        >
+          Early to late
+        </option>
+        <option
+          value="lateToEarly"
+        >
+          Late to early
+        </option>
+      </select>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        BA 435 to London Heathrow
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-24
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:55
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:55
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          154.88477
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401BA435/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        EZY 3004 to London Stansted
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-24
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:45
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:45
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          156.19374
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401EZY3004/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        EJU 8874 to London Gatwick
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-23
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          15:05
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          15:05
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          154.88477
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401EJU8874/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        BA 2761 to London Gatwick
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-23
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          155.64577
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401BA2761/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+    <div
+      class="_item_8283a2"
+    >
+      <h2
+        class="_itemTitle_8283a2"
+      >
+        KL 1019 to London Heathrow
+      </h2>
+      <dl
+        class="_itemContent_8283a2"
+      >
+        <dt>
+          Date
+        </dt>
+        <dd>
+          2022-02-22
+        </dd>
+        <dt>
+          Original time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Expected time
+        </dt>
+        <dd>
+          14:40
+        </dd>
+        <dt>
+          Score
+        </dt>
+        <dd>
+          153.7487
+        </dd>
+        <dt>
+          <a
+            href="/en/departures/flight/D20190401KL1019/"
+          >
+            Go to flight ↗
+          </a>
+        </dt>
+        <dd />
+      </dl>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FlightList > FlightList should render nothing when input is empty 1`] = `<DocumentFragment />`;
