@@ -37,14 +37,18 @@ function FlightList() {
     parsedFlights = sortFlightsByDateAndTime(parsedFlights, state.sorting);
   }
 
-  return (
-    <div className={styles.flightList}>
-      <Sort />
-      {parsedFlights?.map((flight: Flight) => (
-        <FlightListItem key={flight.flightIdentifier} {...flight} />
-      ))}
-    </div>
-  );
+  if (parsedFlights.length > 0) {
+    return (
+      <div className={styles.flightList}>
+        <Sort />
+        {parsedFlights?.map((flight: Flight) => (
+          <FlightListItem key={flight.flightIdentifier} {...flight} />
+        ))}
+      </div>
+    );
+  } else {
+    return <div className={styles.flightList}>No flights found.</div>;
+  }
 }
 
 export default FlightList;
